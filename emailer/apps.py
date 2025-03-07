@@ -2,7 +2,6 @@ from django.apps import AppConfig
 import warnings
 from django.conf import settings
 
-
 class EmailerConfig(AppConfig):
     name = "emailer"
 
