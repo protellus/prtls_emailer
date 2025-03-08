@@ -2,8 +2,8 @@ import logging
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from emailer.serializers import EmailSendSerializer
-from emailer.services import EmailService 
+from prtls_emailer.serializers import EmailSendSerializer
+from prtls_emailer.services import EmailService 
 
 logger = logging.getLogger(__name__)
 

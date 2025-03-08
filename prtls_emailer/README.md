@@ -1,4 +1,4 @@
-# 📧 Emailer - A Reusable Django Email Service
+# 📧 Protellus Emailer - A Reusable Django Email Service
 
 Emailer is a **Django package** that provides an API-based email service with **rate-limiting, retry logic, and template rendering**. It integrates with external email services using an API key and supports **plain text & HTML emails**.
 
@@ -15,15 +15,15 @@ Emailer is a **Django package** that provides an API-based email service with **
 
 ### 🛠️ Installation
 
-pip install git+https://github.com/protellus/emailer.git
+pip install git+https://github.com/protellus/prtls-emailer.git
 
 #### Or install locally in development:
 
-pip install -e /path/to/emailer
+pip install -e /path/to/prtls-emailer
 
 ### ⚙️ Configuration
 
-Add "emailer" to INSTALLED_APPS in settings.py:
+Add "prtls_emailer" to INSTALLED_APPS in settings.py:
 
 EMAIL_API_KEY = "your-api-key-here"
 EMAIL_DEFAULT_SENDER = "no-reply@example.com"

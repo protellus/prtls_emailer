@@ -4,7 +4,7 @@ import time
 import html2text
 from django.template.loader import render_to_string
 from django.template import TemplateDoesNotExist
-from prtls_utils import get_setting
+from prtls_utils.utils import get_setting
 
 logger = logging.getLogger(__name__)
 
