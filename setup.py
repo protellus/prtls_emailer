@@ -10,7 +10,7 @@ setup(
         "Django==3.2",
         "djangorestframework==3.14.0",
         "packaging==24.2",
-        "prtls_utils @ git+https://github.com/protellus/prtls-utils.git@b07369acd8c3b06d3bd3f62701da6396b899304c",
+        "prtls_utils @ git+https://github.com/protellus/prtls-utils.git@main",
         "pytz==2023.3",
         "sqlparse==0.4.4",
         "tzdata==2025.1",
