@@ -12,7 +12,7 @@ setup(
         "packaging==24.2",
         "prtls-utils @ git+https://github.com/protellus/prtls-utils.git@main",
         "pytz==2023.3",
-        "sqlparse==0.4.4",
+        "sqlparse==0.5.0",
         "tzdata==2025.1",
     ],
 )
