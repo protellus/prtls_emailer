@@ -7,7 +7,7 @@ setup(
     include_package_data=True,
     install_requires=[
         "asgiref==3.7.2",
-        "Django==3.2",
+        "Django==4.2.20",
         "djangorestframework==3.14.0",
         "packaging==24.2",
         "prtls-utils @ git+https://github.com/protellus/prtls-utils.git@main",
