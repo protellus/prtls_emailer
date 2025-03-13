@@ -6,7 +6,7 @@ setup(
     setup_requires=["setuptools_scm"],
     packages=find_packages(),
     install_requires=[
-        "asgiref==3.7.2",
+        "asgiref==3.8.1",
         "certifi==2025.1.31",
         "charset-normalizer==3.4.1",
         "Django>=4.2.20,<5.1.7",
