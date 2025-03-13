@@ -9,7 +9,7 @@ setup(
         "asgiref==3.7.2",
         "certifi==2025.1.31",
         "charset-normalizer==3.4.1",
-        "Django>=4.2.20,<5.1.7"
+        "Django>=4.2.20,<5.1.7",
         "djangorestframework==3.14.0",
         "html2text==2024.2.26",
         "idna==3.10",
