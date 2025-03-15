@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="prtls-emailer",
+    name="prtls_emailer",
     use_scm_version=True,
     setup_requires=["setuptools_scm"],
     packages=find_packages(),
@@ -14,7 +14,7 @@ setup(
         "html2text>=2024.2.26",
         "idna>=3.10",
         "packaging>=24.2",
-        "prtls-utils @ git+https://github.com/protellus/prtls-utils.git@main",
+        "prtls_utils @ git+https://github.com/protellus/prtls_utils.git@main",
         "pytz>=2023.3",
         "requests>=2.32.0",
         "setuptools-scm>=8.2.0",
