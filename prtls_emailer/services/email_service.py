@@ -241,3 +241,5 @@ class EmailService(EmailBaseService):
             subject=f"Alert: {subject}",
             html_body=message,
         )
+
+    

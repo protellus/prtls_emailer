@@ -1,1 +1,2 @@
 from .send_email_view import SendEmailView
+from .tracking_pixel_view import tracking_pixel
